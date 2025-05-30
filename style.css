@@ -2,13 +2,17 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: 0;
+}
+body{
+font-family: 'Poppins';
 }
 
 header{
 display: flex;
 justify-content: space-between;
 align-items: center;
- margin: 46px 100px 0 100px;
+margin: 46px 100px 0 100px;
 }
 
 .navbar {
@@ -32,7 +36,7 @@ align-items: center;
 .logo h1 {
   font-size: 40px;
   letter-spacing: 1px;
-  font-family: 'Poppins';
+
   font-weight: 900;
 }
 
@@ -47,7 +51,6 @@ align-items: center;
   font-size: 22px;
   font-weight: 500;
   letter-spacing: 0.5px;
-  font-family: 'Poppins';
 }
 
 .signup-btn {
@@ -57,7 +60,6 @@ align-items: center;
   border: none;
   border-radius: 7px;
   font-size: 24px;
-  font-family: 'Poppins';
   font-weight: 500;
   cursor: pointer;
 }
@@ -103,7 +105,6 @@ align-items: center;
 .clothing-research h1 {
   font-size: 96px;
   font-weight: 900;
-  font-family: 'Poppins';
   line-height: 120px;
 }
 
@@ -127,7 +128,6 @@ align-items: center;
 }
 
 .clothing-research p{
-    font-family: 'Poppins';
     font-weight: 400;
     font-size: 32px;
 } 
@@ -140,7 +140,6 @@ align-items: center;
     padding: 12px 24px;
     border: none;
     border-radius: 10px;
-    font-family: 'Poppins';
     font-weight: 500;
     font-size: 30px;
 }
@@ -178,7 +177,6 @@ align-items: center;
 }
 
 .block-new-arrivals h1{
- font-family: 'Poppins';
  font-weight: 900;
  font-size: 48px;
  z-index: 0;
@@ -201,14 +199,12 @@ align-items: center;
 }
 
 .new-t-shirt div h3{
-  font-family: 'Poppins';
   font-weight: 500;
   font-size: 32px;
 }
 
 .new-t-shirt div p{
   color: #7F7F7F;
-  font-family: 'Poppins';
   font-weight: 500;
   font-size: 24px;
 }
@@ -238,7 +234,6 @@ align-items: center;
 }
 
 .sale h1{
-    font-family: 'Poppins';
     font-weight: 900;
     font-size: 111.61px;
     line-height: 137.19px;
@@ -254,7 +249,6 @@ align-items: center;
 }
 
 .sale p{
-    font-family: 'Poppins';
     font-weight: 500;
     font-size: 36.04px;
     margin-top: 33.09px;
@@ -271,7 +265,6 @@ align-items: center;
     border-radius: 8.14px;
     background-color: #000000;
     color:#FFFFFF;
-    font-family: 'Poppins';
     font-weight: 700;
     font-size: 28px;
     padding: 0.8px;
@@ -286,7 +279,6 @@ align-items: center;
 }
 
 .block-young’s-favourite h1{
-    font-family: 'Poppins';
     font-weight: 900;
     font-size: 48px;
 }
@@ -308,13 +300,11 @@ align-items: center;
 }
 
 .favourite-t-shirts h3{
-    font-family: 'Poppins';
     font-weight: 500;
     font-size: 32px;
 }
 
 .favourite-t-shirts p{
-    font-family: 'Poppins';
     font-weight: 500;
     font-size: 24px;
     color: #7F7F7F;
@@ -328,6 +318,7 @@ align-items: center;
 
 
 
+
 .application{
     display: flex;
     justify-content: space-between;
@@ -336,14 +327,12 @@ align-items: center;
     padding: 199.41px;
 }
 .application h1{
-    font-family: 'Poppins';
     font-weight: 900;
     font-size: 48px;
     line-height: 80px;
 }
 
 .application p{
-    font-family: 'Poppins';
     font-weight: 500;
     font-size: 24px;
     line-height: 35px;
@@ -364,8 +353,111 @@ align-items: center;
 }
 
 
-/* Vector 9 */
+
+
+.shopping-community{
+  background-color:#E5C643 ;
+  width: 100%;
+  height: 623px;
+}
+
+.shopping-community h1{
+  text-align: center;
+  font-weight: 900;
+  color: #FFFFFF;
+  font-size: 55px;
+  line-height: 70px;
+  padding-top: 141px;
+}
+
+.shopping-community p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 32px;
+  color: #FFFFFF;
+  line-height: 35px;
+  margin-top: 37px;
+}
+
+.conteiner-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 49px;
+}
+
+input{
+  width: 574px;
+  height: 87px;
+  border-radius: 10px;
+  background-color: #F4F6F5;
+  box-shadow: none;
+  outline: none;
+  border: 0px solid rgb(250, 245, 245);
+  font-size: 24px;
+  font-weight: 400;
+  padding: 0 27px;
+}
+
+.shopping-community-button{
+  width: 161px;
+  height: 67px;
+  background-color: #000000;
+  color: #FFFFFF;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 33px;
+  position: absolute;
+  margin-left: 450px;
+}
 
 
 
-/* Inside auto layout */
+
+footer{
+  padding:120px 100px 147px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+}
+
+footer h1{
+  font-weight: 900;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+footer p{
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 32px;
+  color: #8E8E8E;
+}
+
+.footer-img{
+  display: flex;
+  gap: 14px;
+  width: 52px;
+  height: 52px;
+  border-radius: 15px;
+  margin-top: 32px;
+}
+
+.footer-conteiner{
+  display: flex;
+  gap: 200px;
+}
+
+.footer-conteiner div h4{
+ font-weight: 400;
+ font-size: 20px;
+ color: #FFFFFF;
+}
+
+.footer-conteiner div p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #8E8E8E;
+}
