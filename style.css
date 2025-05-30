@@ -43,6 +43,7 @@ margin: 46px 100px 0 100px;
 .nav-links {
   display: flex;
   gap: 30px;
+  cursor: pointer;
 }
 
 .nav-links a {
@@ -144,6 +145,10 @@ margin: 46px 100px 0 100px;
     font-size: 30px;
 }
 
+.clothing-research button:hover{
+    background-color: #333;
+}
+
 .clothing-research img {
   max-width: 100%;
   height: auto;
@@ -167,6 +172,7 @@ margin: 46px 100px 0 100px;
 .clothing-brands img {
   max-height: 50px;
   object-fit: contain;
+  cursor: pointer;
 }
 
 
@@ -213,6 +219,7 @@ margin: 46px 100px 0 100px;
     justify-content: space-between;
     align-items: center;
 }
+
 
 
 
@@ -269,6 +276,10 @@ margin: 46px 100px 0 100px;
     font-size: 28px;
     padding: 0.8px;
     margin-top: 77.89px;
+}
+
+.sale button:hover{
+  background-color: #333;
 }
 
 
@@ -339,8 +350,8 @@ margin: 46px 100px 0 100px;
     margin-top: 41px;
 }
 
-.app-store, .google-play{
-
+.app-store, .google-play img{
+    cursor: pointer;
     width:236.09px;
     height: 71px;
     margin-top: 65px;
@@ -410,7 +421,9 @@ input{
   position: absolute;
   margin-left: 450px;
 }
-
+.shopping-community-button:hover{
+  background-color: #333;
+}
 
 
 
@@ -433,6 +446,7 @@ footer p{
   font-size: 20px;
   margin-top: 32px;
   color: #8E8E8E;
+  cursor: pointer;
 }
 
 .footer-img{
@@ -449,10 +463,14 @@ footer p{
   gap: 200px;
 }
 
-.footer-conteiner div h4{
+.footer-conteiner div a{
+ display: flex;
+ line-height: 40px;
  font-weight: 400;
  font-size: 20px;
- color: #FFFFFF;
+ margin-top: 32px;
+ color: #8E8E8E;
+ text-decoration: none;
 }
 
 .footer-conteiner div p{
@@ -460,4 +478,10 @@ footer p{
   font-size: 20px;
   line-height: 40px;
   color: #8E8E8E;
+}
+
+.footer-conteiner span a{
+   font-weight: 400;
+   color:#FFFFFF ;
+   font-size: 20px;
 }
