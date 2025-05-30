@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+ margin: 46px 100px 0 100px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 31.26px;
+  height: 29px;
+}
+
+.logo h1 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-family: 'Poppins';
+  font-weight: 900;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-family: 'Poppins';
+}
+
+.signup-btn {
+  background-color: black;
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 7px;
+  font-size: 24px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #333;
+}
+
+
+
+
+
+.clothing-research{
+    width: 1600px;
+    height: 852px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F6F5;
+    border-radius: 59px;
+    gap: 20px;
+    padding: 60px;
+    margin: 46px 100px 0 100px;
+}
+
+.play{
+    width: 130px;
+    height: 40px;
+    background: #EBD96B;
+    border-radius: 90% 3% 90% 3%;
+}
+
+.container-button{
+    display: flex;
+    gap: 34px;
+    margin-top: 32px;
+}
+
+.clothing-research > div:first-child {
+  max-width: 50%;
+}
+
+.clothing-research h1 {
+  font-size: 96px;
+  font-weight: 900;
+  font-family: 'Poppins';
+  line-height: 120px;
+}
+
+.clothing-research h1 span.highlight {
+  width: 495.79px;
+  height: 117.55px;
+  background-color: #EBD96B;
+  padding: 0 8px;
+  transform: rotate(-2deg);
+  display: inline-block;
+}
+
+.clothing-research h1 span.lets {
+    width: 464.74px;
+    height: 112.14px;
+    background-color:#FFFFFF;
+    padding: 0 8px;
+    transform: rotate(-2deg);
+    display: inline-block;
+
+}
+
+.clothing-research p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 32px;
+} 
+
+.clothing-research button {
+    width: 221px;
+    height: 82px;
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.clothing-research img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+.clothing-brands {
+  width: 100%;
+  height: 186px;
+  background-color: #EBD96B; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 63px;
+}
+
+.clothing-brands img {
+  max-height: 50px;
+  object-fit: contain;
+}
+
+
+
+
+.block-new-arrivals{
+ margin:120px 100px 0 100px;
+}
+
+.block-new-arrivals h1{
+ font-family: 'Poppins';
+ font-weight: 900;
+ font-size: 48px;
+ z-index: 0;
+}
+
+.play2{
+    width: 130px;
+    height: 40px;
+    background: #EBD96B;
+    border-radius: 100% 3% 100% 3%;
+    z-index: 2;
+    margin: -42px 0 0px 250px;
+}
+
+.new-t-shirt{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.new-t-shirt div h3{
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.new-t-shirt div p{
+  color: #7F7F7F;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 24px;
+}
+.conteiner-new-arrivals-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.sale{
+    height: 968px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9DF56;
+    gap: 20px;
+    padding-right: 199.41px;
+    margin-top: 143px;
+}
+
+.sale img{
+    width: 991.42px;
+    height: 968px;
+}
+
+.sale h1{
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 111.61px;
+    line-height: 137.19px;
+}
+
+.sale h1 span.payday{
+    width: 541.43px;
+    height: 130.37px;
+    background-color: #FFFFFF;
+    padding: 0 8px;
+    transform: rotate(-2deg);
+    display: inline-block;
+}
+
+.sale p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 36.04px;
+    margin-top: 33.09px;
+}
+
+.sale p span.sale-data{
+    font-weight: 700;
+    margin-top: 40.69px;
+}
+
+.sale button{
+    width: 265.62px;
+    height: 95.33px;
+    border-radius: 8.14px;
+    background-color: #000000;
+    color:#FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 28px;
+    padding: 0.8px;
+    margin-top: 77.89px;
+}
+
+
+
+
+.block-young’s-favourite{
+    margin:120px 100px 0 100px;
+}
+
+.block-young’s-favourite h1{
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.play3{
+    width: 130px;
+    height: 40px;
+    background: #EBD96B;
+    border-radius: 100% 3% 100% 3%;
+    z-index: 2;
+    margin: -36px 0 0px 340px;
+}
+
+.favourite-t-shirts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.favourite-t-shirts h3{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.favourite-t-shirts p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    color: #7F7F7F;
+}
+.conteiner-favorite-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.application{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 199.41px;
+}
+.application h1{
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 80px;
+}
+
+.application p{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    margin-top: 41px;
+}
+
+.app-store, .google-play{
+
+    width:236.09px;
+    height: 71px;
+    margin-top: 65px;
+    margin-right: 19px;
+}
+
+.vouchers{
+    width: 671px;
+    height: 710px;
+}
+
+
+/* Vector 9 */
+
+
+
+/* Inside auto layout */
