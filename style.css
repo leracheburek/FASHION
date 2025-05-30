@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: 0;
 }
+
+:root{
+  --color:#FFFFFF;
+  --color2: #8E8E8E;
+  --color3: #000000;
+}
+
 body{
 font-family: 'Poppins';
 }
@@ -19,7 +26,7 @@ margin: 46px 100px 0 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: var(--color);
 }
 
 .logo {
@@ -36,7 +43,6 @@ margin: 46px 100px 0 100px;
 .logo h1 {
   font-size: 40px;
   letter-spacing: 1px;
-
   font-weight: 900;
 }
 
@@ -48,15 +54,15 @@ margin: 46px 100px 0 100px;
 
 .nav-links a {
   text-decoration: none;
-  color: black;
+  color: var(--color3);
   font-size: 22px;
   font-weight: 500;
   letter-spacing: 0.5px;
 }
 
 .signup-btn {
-  background-color: black;
-  color: white;
+  background-color:var(--color3);
+  color:var(--color);
   padding: 8px 18px;
   border: none;
   border-radius: 7px;
@@ -79,7 +85,7 @@ margin: 46px 100px 0 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F4F6F5;
+    background-color: var(--color);
     border-radius: 59px;
     gap: 20px;
     padding: 60px;
@@ -121,7 +127,7 @@ margin: 46px 100px 0 100px;
 .clothing-research h1 span.lets {
     width: 464.74px;
     height: 112.14px;
-    background-color:#FFFFFF;
+    background-color: var(--color);
     padding: 0 8px;
     transform: rotate(-2deg);
     display: inline-block;
@@ -136,8 +142,8 @@ margin: 46px 100px 0 100px;
 .clothing-research button {
     width: 221px;
     height: 82px;
-    background-color: black;
-    color: white;
+    background-color:var(--color3);
+    color: var(--color);
     padding: 12px 24px;
     border: none;
     border-radius: 10px;
@@ -210,10 +216,11 @@ margin: 46px 100px 0 100px;
 }
 
 .new-t-shirt div p{
-  color: #7F7F7F;
+  color: var(--color2);
   font-weight: 500;
   font-size: 24px;
 }
+
 .conteiner-new-arrivals-p{
     display: flex;
     justify-content: space-between;
@@ -250,7 +257,7 @@ margin: 46px 100px 0 100px;
 .sale h1 span.payday{
     width: 541.43px;
     height: 130.37px;
-    background-color: #FFFFFF;
+    background-color:var(--color);
     padding: 0 8px;
     transform: rotate(-2deg);
     display: inline-block;
@@ -271,8 +278,8 @@ margin: 46px 100px 0 100px;
     width: 265.62px;
     height: 95.33px;
     border-radius: 8.14px;
-    background-color: #000000;
-    color:#FFFFFF;
+    background-color:var(--color3);
+    color:var(--color);
     font-weight: 700;
     font-size: 28px;
     padding: 0.8px;
@@ -319,7 +326,7 @@ margin: 46px 100px 0 100px;
 .favourite-t-shirts p{
     font-weight: 500;
     font-size: 24px;
-    color: #7F7F7F;
+    color: var(--color2);
 }
 .conteiner-favorite-p{
     display: flex;
@@ -376,7 +383,7 @@ margin: 46px 100px 0 100px;
 .shopping-community h1{
   text-align: center;
   font-weight: 900;
-  color: #FFFFFF;
+  color:var(--color);
   font-size: 55px;
   line-height: 70px;
   padding-top: 141px;
@@ -386,7 +393,7 @@ margin: 46px 100px 0 100px;
   text-align: center;
   font-weight: 400;
   font-size: 32px;
-  color: #FFFFFF;
+  color:var(--color);
   line-height: 35px;
   margin-top: 37px;
 }
@@ -402,10 +409,10 @@ input{
   width: 574px;
   height: 87px;
   border-radius: 10px;
-  background-color: #F4F6F5;
+  background-color:var(--color);
   box-shadow: none;
   outline: none;
-  border: 0px solid rgb(250, 245, 245);
+  border: 0px solid var(--color)(250, 245, 245);
   font-size: 24px;
   font-weight: 400;
   padding: 0 27px;
@@ -414,8 +421,8 @@ input{
 .shopping-community-button{
   width: 161px;
   height: 67px;
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color:var(--color3);
+  color:var(--color);
   border-radius: 8px;
   font-weight: 500;
   font-size: 33px;
@@ -433,20 +440,20 @@ footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000;
+  background-color:var(--color3);
 }
 
 footer h1{
   font-weight: 900;
   font-size: 40px;
-  color: #FFFFFF;
+  color:var(--color);
 }
 
 footer p{
   font-weight: 400;
   font-size: 20px;
   margin-top: 32px;
-  color: #8E8E8E;
+  color:var(--color2);
   cursor: pointer;
 }
 
@@ -470,7 +477,7 @@ footer p{
  font-weight: 400;
  font-size: 20px;
  margin-top: 32px;
- color: #8E8E8E;
+ color:var(--color2);
  text-decoration: none;
 }
 
@@ -478,11 +485,11 @@ footer p{
   font-weight: 400;
   font-size: 20px;
   line-height: 40px;
-  color: #8E8E8E;
+  color:var(--color2);
 }
 
 .footer-conteiner span a{
    font-weight: 400;
-   color:#FFFFFF ;
+   color:var(--color);
    font-size: 20px;
 }
