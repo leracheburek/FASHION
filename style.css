@@ -86,7 +86,7 @@ margin: 46px 100px 0 100px;
     margin: 46px 100px 0 100px;
 }
 
-.play{
+.clothing-research-img{
     width: 130px;
     height: 40px;
     background: #EBD96B;
@@ -150,8 +150,8 @@ margin: 46px 100px 0 100px;
 }
 
 .clothing-research img {
-  max-width: 100%;
-  height: auto;
+   width: 890px;
+   height: 784px;
 }
 
 
@@ -188,7 +188,7 @@ margin: 46px 100px 0 100px;
  z-index: 0;
 }
 
-.play2{
+.block-new-arrivals-img{
     width: 130px;
     height: 40px;
     background: #EBD96B;
@@ -236,6 +236,7 @@ margin: 46px 100px 0 100px;
 }
 
 .sale img{
+    margin-top: 9px;
     width: 991.42px;
     height: 968px;
 }
@@ -294,7 +295,7 @@ margin: 46px 100px 0 100px;
     font-size: 48px;
 }
 
-.play3{
+.block-young’s-favourite-img{
     width: 130px;
     height: 40px;
     background: #EBD96B;
